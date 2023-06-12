@@ -1,0 +1,52 @@
+.App{
+    display: flex;
+    align-items:  center;
+    flex-direction: column;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.addTask{
+    height: 15vh;
+    background-color: dodgerblue;
+    width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+/* .addTask :input :button{
+    height: 30px;
+    width: 25px;
+    border-radius: 12px;
+    background-color: brown;
+} */
+.list{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    flex-direction: column;
+
+}
+.task{
+    width: 500px;
+    height: 50px;
+    display: flex;
+    margin: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.task button{
+   width: 45px;
+   height: 30px;
+     margin-left: 45px;
+     text-align: center;
+     background-color: rgb(43, 226, 226);
+     border-radius: 5px;
+     color:white;
+     /* display: flex; */
+};

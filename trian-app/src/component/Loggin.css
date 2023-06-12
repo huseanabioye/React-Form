@@ -1,0 +1,7 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 38, 255);
+    border: 2px black solid;
+    /* display: ; */
+}
